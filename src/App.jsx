@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Projects from "./components/Projects";
+import HomeBlogs from "./components/HomeBlogs";
 
 function App(){
     return(
@@ -13,6 +14,7 @@ function App(){
                 <Hello></Hello>
                 <Message></Message>
                 <Projects></Projects>
+                <HomeBlogs></HomeBlogs>
             </div>
         </>
     )
