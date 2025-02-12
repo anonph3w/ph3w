@@ -3,7 +3,7 @@ import React from "react";
 function Navbar(){
     return(
         <>
-            <div className="bg-gray-950 m-2 p-4 rounded-xl flex justify-between md:my-10 my-4">
+            <div className="bg-[rgba(52,52,54,0.04)] backdrop-blur-md p-4 rounded-2xl flex justify-between md:my-10 my-4 sticky top-0 md:top-10 z-10">
                 <a href="/"><span className="text-xl font-semibold">wscoding</span></a>
 
                 <ul className="list flex fle-row gap-5">
