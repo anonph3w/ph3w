@@ -8,7 +8,7 @@ function Navbar(){
 
                 <ul className="list flex fle-row gap-5">
                     <li><a href="" className="font-semibold text-sm">Blogs</a></li>
-                    <li><a href="" className="font-semibold text-sm">Projects</a></li>
+                    <li><a href="#projects" className="font-semibold text-sm">Projects</a></li>
                 </ul>
             </div>
         </>
