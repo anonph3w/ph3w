@@ -8,6 +8,7 @@ import HomeBlogs from "./components/HomeBlogs";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
+import Failure from "./Blogs/Failure";
 
 // Create a layout component that includes the Navbar
 const Layout = () => {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
             {
                 path: "/blogs",
                 element: <Blogs />
+            },
+            {
+                path: "/failure",
+                element: <Failure />
             }
         ]
     }
