@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import HomeBlogs from "./components/HomeBlogs";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
 
 // Create a layout component that includes the Navbar
 const Layout = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             <Message />
             <Projects />
             <HomeBlogs />
+            <Footer />
         </>
     );
 };
