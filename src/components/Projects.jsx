@@ -7,10 +7,10 @@ import { FaPython } from "react-icons/fa";
 function Projects() {
     return (
         <>
-            <p id="projects" className="mx-2 font-mono md:text-xl flex gap-2 md:mt-15 mb-6 mt-10 items-center"> <p className="opacity-40">(curated)</p> Projects  <IoMdArrowRoundForward /></p>
+            <p id="projects" className="mx-2 font-mono md:text-xl flex gap-2 md:mt-15 mb-6 mt-10 items-center"> <p className="opacity-40">(selected)</p> Projects  <IoMdArrowRoundForward /></p>
 
             <div className="mx-5 flex gap-2 flex-wrap">  {/* make sure to add justify-center after adding 2 or more projects*/}
-                <a href="https://github.com/wscodingg/FlappyBird" target="_blank" className="card font-mono py-5 bg-gray-950 px-4 my-2 rounded hover:cursor-pointer md:w-[32%] w-[100%]">
+                <a href="https://github.com/wscodingg/FlappyBird" target="_blank" className="card font-mono py-5 bg-gray-950 px-4 my-2 rounded hover:cursor-pointer md:w-[32%] w-[100%] hover:outline-2 active:scale-95">
                     <div>
                         <p>FlappyBird</p>
                         <p className="text-sm">2D arcade game</p>
