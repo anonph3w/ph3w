@@ -14,9 +14,23 @@ function Blogs() {
 
                 {/* Blog1 2025 */}
                 <Link to="/failure">
-                    <p className="flex justify-between my-1"><span>1. Failure </span> <p className="opacity-50">14 Feb 2025</p></p>
-                    <p className="text-sm opacity-50 mx-5">rant about my failure in a college subject</p>
+                    <div className="my-10">
+                        <p className="flex justify-between my-1"><span>1. Failure </span> <p className="opacity-50">14 Feb 2025</p></p>
+                        <p className="text-sm opacity-50 mx-5">rant about my failure in a college subject</p>
+                    </div>
                 </Link>
+
+
+
+                {/* Blog 2 2025 */}
+                <Link to="/linux">
+                    <div className="my-10">
+                        <p className="flex justify-between my-1"><span>2. Linux</span> <p className="opacity-50">19 Mar 2025</p></p>
+                        <p className="text-sm opacity-50 mx-5">yapping about my linux experience</p>
+                    </div>
+                </Link>
+
+
             </div>
         </>
 
